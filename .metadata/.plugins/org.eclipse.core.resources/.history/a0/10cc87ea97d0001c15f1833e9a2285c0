@@ -1,0 +1,22 @@
+/*
+ * alab.c
+ *
+ *  Created on: May 10, 2022
+ *      Author: Ahmed Magdy
+ */
+
+#include<avr/io.h>
+
+
+int main (){
+
+	/*set pint direction as output*/
+
+DDRA = 0b11111111 ;
+
+	/*set pin value*/
+
+PORTA = 0b11110000 ;
+
+}
+
